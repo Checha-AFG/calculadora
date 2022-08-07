@@ -1,9 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-
 
 package visual;
 
@@ -21,18 +15,15 @@ import java.net.URL;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author james
- */
+
 public class audio {
-    // open the sound file as a Java input stream
+
     
     File wavFile;
     static URL defaultSound;
     public static Clip clip;
     public static AudioInputStream audioInputStream;
-    static String s="file:D:\\UNI\\4tosemestre\\prograll\\tarea_calcu\\Calcu\\ext\\song.wav";
+    static String s="file:C:\\UMG\\CUARTO SEMESTRE\\PROGRAMACION 2\\CALCULADORA\\ext\\song.wav";
     
     
         public static void play() {
@@ -44,7 +35,6 @@ public class audio {
             try {
                 clip = AudioSystem.getClip();
                 clip.open(audioInputStream);
-                //clip.loop(100);
                 clip.start();
 
             } catch (LineUnavailableException e) {

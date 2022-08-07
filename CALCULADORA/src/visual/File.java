@@ -17,7 +17,7 @@ import java.util.Scanner;
 public class File {
 
     static Path fileName = Path.of(
-            "D:/UNI/4tosemestre/prograll/tarea_calcu/Calcu/ext/bitacora.txt");
+            "C:\Users\chech\Documents\UMG\CUARTO SEMESTRE\PROGRAMACION 2\Codigos\CALCULADORA\ext\historial.txt");
     
     public static void insert(String s)
         throws IOException 
